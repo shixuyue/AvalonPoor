@@ -7,5 +7,8 @@ namespace AvalonPoor.Models
 {
     public class Player
     {
+        public string DisplayName { get; set; }
+        public Role Role { get; set; }
+        public Guid PlayerId { get; set; }
     }
 }
